@@ -1,0 +1,123 @@
+h1 {
+  width: 1500px;  /* 要素の幅を指定 */
+  height: 100px;  /* 要素の高さを指定 */
+  line-height: 100px;  /* 行間の高さを設定 */
+  text-align: center;  /* テキストを中央に配置 */
+  font-size: 60px;  /* 文字の大きさを指定 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  color: white;  /* 文字色を設定 */
+  background-color: gray;  /* 背景色を設定 */
+}
+
+.section {
+  width: 1500px;  /* 要素の幅を指定 */
+  height: 80px;  /* 要素の高さを指定 */
+  line-height: 80px;  /* 行間の高さを設定 */
+  text-align: center;  /* テキストを中央に配置 */
+  font-size: 45px;  /* 文字の大きさを指定 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  margin-top: 20px; /* 上方向に余白を設定 */
+  background-color: gainsboro;  /* 背景色を設定 */
+}
+
+#allintro {
+  width: 1500px;  /* 要素の幅を指定 */
+  display: flex;  /* 中の要素を横並びに配置 */
+  justify-content: center;  /* 横方向の中央揃え */
+  align-items: center;  /* 縦方向の中央揃え */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  background-color: wheat;  /* 背景色を設定 */
+}
+
+#intro {
+  margin: 20px;  /* 上下左右の余白を設定 */
+}
+
+li {
+  font-size: 28px;  /* 文字の大きさを指定 */
+  padding-left: 20px;  /* リストの左側に余白を設定 */
+  padding: 20px 0;  /* 行間を設定 */
+  font-weight: bold;  /* フォントの太さを設定 */
+}
+
+#text {
+  width: 1500px;  /* 幅を設定 */
+  font-size: 28px;
+  padding: 20px 0;
+  font-weight: bold;
+    text-align: center;   /* テキストを中央に配置 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  margin-top: 10px;
+  border-radius: 10px;  /* 要素の角を丸くする */
+  background: wheat;  /* 背景色を設定 */
+}
+
+#calendar-container {
+  width: 1500px;  /* 幅を設定 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  margin-top: 10px;  /* 上方向に余白を設定 */
+  border-radius: 10px;  /* 要素の角を丸くする */
+  background: wheat;  /* 背景色を設定 */
+  color: black;  /* テキストの色を設定 */
+}
+
+table {
+  padding: 10px 30px 30px;  /* calendar-containerの中に余白を取って作成 */
+  width: 100%;  /* 幅は要素に対して100％使用する */
+}
+
+th, td {
+  text-align: center;  /* テキストを中央に配置 */
+  padding: 30px;  /* テキストの周囲に余白を設定 */
+}
+
+th {
+  font-weight: bold;  /* フォントの太さを設定 */
+  font-size: 24px;  /* 文字の大きさを設定 */
+  background-color: gainsboro;  /* 背景色を設定 */
+}
+
+/* カレンダーの日付 */
+td {
+  font-weight: bold;  /* フォントの太さを設定 */
+  font-size: 30px;  /* 文字の大きさを設定 */
+  background-color: whitesmoke;  /* 背景色を設定 */
+}
+
+/* 日曜日（Sun）を設定 */
+th:first-child, td:first-child {
+  color: #ff838b;  /* 文字の色を設定 */
+}
+
+/* 土曜日（Sat）を設定 */
+th:last-child, td:last-child {
+  color: #6fb5ff;  /* 文字の色を設定 */
+}
+
+/* カレンダーの年月部分 */
+#yearmonth {
+  width: 1500px;   /* 幅を設定 */
+  height: 80px;  /* 高さを設定 */
+  line-height: 80px;  /* 文字の高さを設定 */
+  text-align: center;  /* テキストを中央に配置 */
+  font-size: 45px;  /* 文字の大きさを指定 */
+  font-weight: bold;  /* 文字の太さを指定 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+}
+
+/* メッセージの日付 */
+.day {
+  color:red;  /* 文字の色を設定 */
+  font-weight: bold;  /* 文字の太さを指定 */
+}
+
+/* カウントダウンで表示する要素 */
+#message {
+  width: 1500px;   /* 幅を設定 */
+  line-height: 80px;  /* 文字の高さを設定 */
+  text-align: center;  /* テキストを中央に配置 */
+  font-size: 60px;  /* 文字の大きさを指定 */
+  margin: 0 auto;  /* 要素を中央に配置 */
+  margin-top: 20px;  /* 上方向に余白を設定 */
+  background-color: gainsboro;  /* 背景色を設定 */
+}
