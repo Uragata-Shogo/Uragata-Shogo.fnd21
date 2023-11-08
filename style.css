@@ -1,5 +1,5 @@
 h1 {
-  width: 1200px;  /* 要素の幅を指定 */
+  width: 1500px;  /* 要素の幅を指定 */
   height: 100px;  /* 要素の高さを指定 */
   line-height: 100px;  /* 行間の高さを設定 */
   text-align: center;  /* テキストを中央に配置 */
@@ -10,7 +10,7 @@ h1 {
 }
 
 .section {
-  width: 1200px;  /* 要素の幅を指定 */
+  width: 1500px;  /* 要素の幅を指定 */
   height: 80px;  /* 要素の高さを指定 */
   line-height: 80px;  /* 行間の高さを設定 */
   text-align: center;  /* テキストを中央に配置 */
@@ -21,7 +21,7 @@ h1 {
 }
 
 #allintro {
-  width: 1200px;  /* 要素の幅を指定 */
+  width: 1500px;  /* 要素の幅を指定 */
   display: flex;  /* 中の要素を横並びに配置 */
   justify-content: center;  /* 横方向の中央揃え */
   align-items: center;  /* 縦方向の中央揃え */
@@ -41,7 +41,7 @@ li {
 }
 
 #text {
-  width: 1200px;  /* 幅を設定 */
+  width: 1500px;  /* 幅を設定 */
   font-size: 28px;
   padding: 20px 0;
   font-weight: bold;
@@ -53,7 +53,7 @@ li {
 }
 
 #calendar-container {
-  width: 1200px;  /* 幅を設定 */
+  width: 1500px;  /* 幅を設定 */
   margin: 0 auto;  /* 要素を中央に配置 */
   margin-top: 10px;  /* 上方向に余白を設定 */
   border-radius: 10px;  /* 要素の角を丸くする */
@@ -96,7 +96,7 @@ th:last-child, td:last-child {
 
 /* カレンダーの年月部分 */
 #yearmonth {
-  width: 1200px;   /* 幅を設定 */
+  width: 1500px;   /* 幅を設定 */
   height: 80px;  /* 高さを設定 */
   line-height: 80px;  /* 文字の高さを設定 */
   text-align: center;  /* テキストを中央に配置 */
@@ -113,7 +113,7 @@ th:last-child, td:last-child {
 
 /* カウントダウンで表示する要素 */
 #message {
-  width: 1200px;   /* 幅を設定 */
+  width: 1500px;   /* 幅を設定 */
   line-height: 80px;  /* 文字の高さを設定 */
   text-align: center;  /* テキストを中央に配置 */
   font-size: 60px;  /* 文字の大きさを指定 */
