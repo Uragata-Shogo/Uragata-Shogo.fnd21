@@ -26,6 +26,8 @@ h1 {
   justify-content: center;  /* 横方向の中央揃え */
   align-items: center;  /* 縦方向の中央揃え */
   margin: 0 auto;  /* 要素を中央に配置 */
+  margin-top: 10px;  /* 上方向に余白を設定 */
+  border-radius: 10px;  /* 要素の角を丸くする */
   background-color: wheat;  /* 背景色を設定 */
 }
 
